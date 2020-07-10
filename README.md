@@ -40,13 +40,24 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] Mention two parts of Express that you learned about this week.
 
+    Express has routers to keep the application clean, modular, and restful.
+    Express also has middleware which can verify incoming data.
+
 - [ ] Describe Middleware?
+
+    A middleware is a function that sits inbetween the client and the server. It can be customized and be use to authenticate clients to our application.
 
 - [ ] Describe a Resource?
 
+    It is data consumed by the client given from the server.
+
 - [ ] What can the API return to help clients know if a request was successful?
 
+    Status 200
+
 - [ ] How can we partition our application into sub-applications?
+
+    Using routes to seperate endpoints. For example you can seperate posts into the /posts route and comments into the /comments route.
 
 ## Minimum Viable Product
 
